@@ -1,0 +1,369 @@
+body{
+	background: #322453;
+    font-family: Gill, Helvetica, sans-serif ;
+    background-repeat: no-repeat; 
+    margin: 0;
+    background-position: 0 4%;
+}
+body:before{
+    content: '';
+    background-image: url(../img/bg-opt.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 470px;
+    width: 280px;
+    position: absolute;
+    top: 90px;
+    left: 0;
+}
+.navbar{
+    padding: 3% 6% 0;
+}
+.container{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.hero_banner{
+    width: 90%;
+    margin: auto;
+}
+h3{
+    font-size: 2em;
+    color: white;
+    font-weight: 1000;
+}
+h2{  
+    font-size: 3em;
+    color: white;
+    font-weight: 1000;
+    margin: 15px 5px;
+}
+.detail{
+    color: white; 
+    font-size: 29px;
+    margin: 20px 5px 0;
+    font-weight: bold;
+}
+.click, .click.sec{  
+    color: white;
+    background: #ff3333;
+    width: 128px;
+    height: 52px;
+    border: 0;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 3em;
+    margin: 40px 5px;
+}
+.click.sec{
+    background: #ff3333;
+}
+img{
+    width: 100%;
+}
+.about{
+    margin: 0;
+    color: white;
+}
+.Feature_banner .photo{
+    width:  30%;
+    margin: 14px 0;
+}
+.featcon{
+    text-align: center;
+    width: 66%;
+}
+.featurehead{
+    width: 310px;
+    height: 44px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #5e549f;
+    background: #251a41;
+    color: white;
+    border-radius: 2em;   
+}
+.featurehead p{
+   margin: 8px 0;
+   text-align: center;
+}
+.d-flex{
+    padding: 15px;
+}
+.cont{
+    padding: 35px 0;   
+}
+.second{
+    background: #5e549f;
+}
+.container.th{
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+h1{
+    color: white;
+    font-size: xxx-large;
+    text-align: center;
+}
+button.click.sec{
+    margin: auto;
+    display: block;
+}
+.secbutton{
+    width: 100%;
+    margin: 5% 0;
+    padding: 2% 0;
+}
+.footele{
+    width: 55%;
+    margin: auto;
+    display: block;
+}
+.fixed-footer{
+    text-align: center;
+    background: #3c346d;
+    color: white;
+    width: 100%;
+    height: 40px;
+}
+
+@media only screen and (max-width: 990px){
+    .photo{
+        width: 20%;
+    }
+    .image{
+        width: 60%;
+        margin: auto;
+    }
+    .cont{
+        padding: 35px 0;
+        width: 85%;
+        margin: auto;
+    }
+    .second{
+        border-radius: 4em;
+        margin: auto;
+        width: 80%;
+    }
+   
+    .whole_page .left{
+        padding: 0;
+    }
+    .whole_page .main_page .button {
+        margin: auto;
+        width: 305px;
+    }
+    .whole_page .request_page .button {
+        margin: auto;
+        width: 150px;
+    }
+    .whole_page .click , .click.f{
+        margin: 55px 3px 10px !important;
+    }
+    .whole_page .left {
+       margin: auto;
+       width: 90%;
+    }
+    .whole_page input{
+        width: 100% !important;
+        margin: 10px 0;
+    }
+    .whole_page .photo{
+        width: 60%;
+        margin: auto;
+    }
+    .whole_page .request_page.button{
+        width: 143px;
+    }
+    .whole_page .complete_page .col-lg-8.sm-10.elp{
+        padding: 50px 40px !important;
+    }
+
+}
+
+
+.whole_page{
+    position: relative;
+    background: #3c346d;
+    border-radius: 1em;
+    padding: 40px 15px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px !important;
+    margin-top: 10px !important;
+}
+.quote{
+    color: white;
+    font-size: 18px;
+    margin: 10px 25px;
+}
+.request_page.quote{
+    margin: 20px 42px;
+    font-size: 2em;
+    color: white;
+    font-weight: 900;
+}
+.whole_page .second{
+    background: white;
+    margin: 0;
+    padding: 0 15px;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    border-radius: 4em;
+    position: absolute;
+    left: 50%;
+    top: 2px;
+    transform: translate(-50%, -50%);
+}
+.whole_page .second .col p{
+    text-align: center;
+    width: 60%;
+}
+.num p{
+    color: white;
+    padding: 7px;
+    width: 38px !important;
+}
+.row.sec{
+    min-height: 359px;
+}
+.whole_page .col{
+    display: flex;
+    width: 33%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.whole_page .click{
+     margin: 0 5px;
+}
+.num{
+    margin: 6px !important;
+    height: 38px;
+    width:  38px;
+    background: gray;
+    text-align: center;
+    border-radius: 50%;
+}
+.num.f{
+     background: #ff3333;
+}
+.p{
+    margin: 11px 0 !important;
+    width: 43px !important;
+}
+.whole_page .left{
+    padding: 35px 15px;
+    min-height: 323px;
+}
+div.block{
+    width: 195px;
+    height: 104px;
+    background: #f6f6f7;
+    padding: 0px;
+    margin: 15px;
+    position: relative;
+    display: inline-block;
+    border-radius: 1em;
+}
+.block p{
+    margin-left: 13px;
+    margin-top: 5px;
+    margin-bottom: 0 !important;
+    color: #ff3333 !important;
+}
+.block img{
+    width: 32%;
+    border-radius: 50%;
+    border: 3px solid #3c346d;
+    bottom: 32%;
+    position: absolute;
+    left: 50%;
+    top: 6px;
+    transform: translate(-50%, -50%);
+}
+.whole_page .col-lg-4.sm-10{
+    position: initial;
+}
+.whole_page .click.f{
+    border-radius: 0.7em;
+}
+.button{
+    margin: auto;
+    width: 90%;
+}
+#selection{
+    margin: auto;
+    background: #8e80e2;
+    border-radius: 1.5em;
+    padding: 15px;
+    width: 230px;
+    height: 380px;
+    overflow: auto;
+    border: 1px solid;
+}
+#selection p{
+    color: white;
+}
+#selection .block{
+    margin: 15px 0;
+}
+.fixed-footer.sec{  
+    position: fixed;
+    bottom: 0;
+}
+.bottom{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.infofield{
+    margin: 15px;
+    padding: 10px;
+}
+input{
+    margin: 10px;
+    height: 50px;
+    width: 38% ;
+    border-radius: 7px;
+    padding: 13px;
+    border: none;
+    background: #dfdfea66;
+    color: white;
+}
+#mail,#cont{
+    width: 80%;
+}
+::placeholder {
+    color: white;
+    font-size: 16;
+}
+
+.complete_page .right{
+    width: 20%;
+    margin: auto;
+}
+.complete_page .cont{
+    margin: auto;
+    width: 60%;
+    align-items: center;
+}
+.complete_page .col-lg-8.sm-10{
+    padding: 0 40px;
+}
+.complete_page h4{
+    color: white;
+    text-align: center;
+    margin: 15px 0px;
+}
+.complete_page .massage{
+    transform: translate(0%, 22%);
+}
+
+.request_page{
+    display: none;
+}
+.complete_page{
+     display: none;
+}
