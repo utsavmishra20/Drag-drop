@@ -27,7 +27,8 @@ async function getapi() {
 
 getapi();
 
-$( function() {                 
+$( function() {
+                  
            $(" .block ").draggable({helper: 'clone'});
            $("#selection").droppable(
                 {

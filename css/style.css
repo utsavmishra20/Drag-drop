@@ -24,10 +24,6 @@ body:before{
     margin-bottom: 40px;
     margin-top: 40px;
 }
-.hero_banner{
-    width: 90%;
-    margin: auto;
-}
 h3{
     font-size: 2em;
     color: white;
@@ -137,17 +133,17 @@ button.click.sec{
         width: 60%;
         margin: auto;
     }
+    .sec{
+        width: 80%;
+        margin: auto;
+        border-radius: 50px;
+    }
     .cont{
         padding: 35px 0;
         width: 85%;
         margin: auto;
     }
-    .second{
-        border-radius: 4em;
-        margin: auto;
-        width: 80%;
-    }
-   
+    2nd//
     .whole_page .left{
         padding: 0;
     }
@@ -162,9 +158,12 @@ button.click.sec{
     .whole_page .click , .click.f{
         margin: 55px 3px 10px !important;
     }
+    .whole_page .col-lg-8, .col-lg-4{
+        padding: 40px;
+    }
     .whole_page .left {
        margin: auto;
-       width: 90%;
+       width: 75%;
     }
     .whole_page input{
         width: 100% !important;
@@ -235,9 +234,6 @@ button.click.sec{
     width: 33%;
     padding-right: 5px;
     padding-left: 5px;
-}
-.whole_page .click{
-     margin: 0 5px;
 }
 .num{
     margin: 6px !important;
@@ -310,7 +306,7 @@ div.block{
 #selection .block{
     margin: 15px 0;
 }
-.fixed-footer.sec{  
+.whole_page .fixed-footer{  
     position: fixed;
     bottom: 0;
 }
